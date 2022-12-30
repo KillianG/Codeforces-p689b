@@ -8,10 +8,6 @@ def mike_shortcut(nb_intersec, shortcuts):
         while s != i :
             nrj+=1
             if distance(s, i) > distance(shortcuts[s-1], i):
-                if distance(shortcuts[s-1], i) > distance(shortcuts[s], i) + 1:
-                    nrj +=1
-                    s = shortcuts[s]
-                    continue
                 s = shortcuts[s-1]
                 continue
             if (s > i):

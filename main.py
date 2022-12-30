@@ -19,7 +19,6 @@ def mike_shortcut(nb_intersec, shortcuts):
 
 
 if __name__ == '__main__':
-    nb_intersec = 98 #int(input())
-    shortcuts = [int(item) for item in "17 17 57 57 57 57 57 57 57 57 57 57 57 57 57 57 57 57 57 57 57 57 57 57 57 57 57 57 57 57 57 57 87 87 87 87 87 87 87 87 87 87 87 87 87 87 87 87 87 87 87 87 87 90 90 90 90 90 90 90 90 90 90 90 92 92 92 92 92 92 92 92 92 92 92 92 92 92 92 92 92 92 92 92 92 92 92 92 92 92 95 95 95 95 95 97 98 98".split(' ')] #[int(item) for item in input().split(' ')]
+    nb_intersec = int(input())
+    shortcuts = [int(item) for item in input().split(' ')]
     mike_shortcut(nb_intersec, shortcuts)
-    mike_shortcut(7, [4, 4, 4, 4, 7, 7, 7])
